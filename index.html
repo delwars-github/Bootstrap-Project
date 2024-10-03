@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap 5 desing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- google font & font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- google font & font awesome -->
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fa fa-bars navber-icon"></i>
+          </label>
+
+          <a class="navbar-brand p-0" href="#"><img class="nav-img" src="/about-profile.png" alt="logo"></a>
+
+          <div class="navbar-collapse justify-content-end mr-5" id="navber">
+            <ul class="navbar-nav">
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#features">Features</a>
+              </li>
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#about">About Me</a>
+              </li>
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#feedback">Feedback</a>
+              </li>
+              <li class="nav-item btn btn-outline-info m-1">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section id="banner">
+        <div class="banner-container d-flex justify-content-center align-items-center">
+          <div class="banner-contents text-center">
+            <h1 class="text-white mb-5">Wellcome To Coder BD !!!</h1>
+            <button class="btn btn-primary m-3"> <i class="fas fa-play"></i> Portfolio</button>
+            <button class="btn btn-danger m-3"> <i class="fab fa-youtube"></i> Subscribe</button>
+          </div>
+        </div>
+      </section>
+
+    </header>
+    <main>
+      <!-- card start here -->
+      <section id="features" class="text-center">
+        <h2>Features</h2>
+        <hr class="hr-dotted mb-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="features-col">
+              <i class="fa-solid fa-money-check-dollar fa-3x rounded-icon p-3 my-4"></i>
+              <h4 class="p-2"> Earn To Money</h4>
+              <p class="small ">I always try my best to explain complex things more easier way so that you never lose
+                your interest.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="features-col">
+              <i class="fa-solid fa-message fa-3x rounded-icon p-3 my-4"></i>
+              <h4 class="p-1">Fast Response</h4>
+              <p class="small pt-1">Responsing to thousands of students is never easy I do my bext for quick response.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="features-col">
+              <i class="fa-solid fa-hand-holding-dollar fa-3x rounded-icon p-3 my-4"></i>
+              <h4 class="p-2">Free To Use</h4>
+              <p class="small pt-1">You can access all of my videos for free. Education is not for business.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="features-col">
+              <i class="fa-solid fa-briefcase fa-3x rounded-icon p-3 my-4"></i>
+              <h4 class="p-2">Work Skill</h4>
+              <p class="small pt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit Cupiditate.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- card end here -->
+
+      <!-- about start here -->
+      <section id="about">
+        <h2 class="text-center">About Me</h2>
+        <hr class="hr-dotted mb-5">
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col0sm-9">
+            <div class="about-col">
+              <i class="fa-solid fa-user fa-3x p-3 mb-1 rounded-icon"></i>
+
+              <h4>Personal Info</h4>
+              <p>Name: Delwar Sheikh</p>
+              <p>profesion: Frontend Developer</p>
+              <p>Current address: Sagorkandhi, Pabna, Bangladesh</p>
+              <p>Email: sheikhmddelwar@gmail.com</p>
+
+              <button class="btn btn-primary my-2">Download CV</button>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-7 col-sm-3"></div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-7 col-md-7 col-sm-3"></div>
+
+          <div class="col-lg-5 col-md-5 col-sm-9">
+            <div class="about-col">
+              <i class="fa-solid fa-trophy fa-3x rounded-icon p-3 mb-1"></i>
+
+              <h4>Achievements</h4>
+              <p><strong>100% Tuition Waiver:</strong> Based on excellent academic result in Ratangonj High
+                School,Bangladesh.
+              </p>
+              <p><strong>Public Bank Scholarship: </strong>4,000 TK,For scoring GPA 4.14/.00 in SSC.</p>
+              <p><strong>Fiverr Sellar:</strong>I am Working in Fiverr my sellar level-1.</p>
+
+
+              <button class="btn btn-primary my-2">Click to Fiverr</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-9">
+            <div class="about-col">
+              <i class="fa-solid fa-graduation-cap fa-3x p-3 mb-1 rounded-icon"></i>
+
+              <h4>Education</h4>
+              <p><strong>S.S.C(2017):</strong>Ratangonj Multilater High School</p>
+              <p><strong>H.S.C(2019):</strong>Masundiya K.J.B Degree College</p>
+              <p><strong>Honer's(2024):</strong>Shahid M. Monsur Ali College,Pabna</p>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-7 col-sm-3"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-3"></div>
+
+          <div class="col-lg-5 col-md-5 col-sm-9">
+            <div class="about-col">
+              <i class="fa-solid fa-briefcase fa-3x p-3 mb-1 rounded-icon"></i>
+
+              <h4>Skill</h4>
+              <p><strong>HTML:</strong>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+              <p><strong>CSS:</strong>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+              <p><strong>Bootstrap5:</strong>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- about ends here -->
+
+      <!-- tutorial start here -->
+      <section id="portfolio">
+        <h2 class="text-center">Portfolio</h2>
+        <hr class="hr-dotted mb-5">
+
+        <div class="portfolio-container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-5.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Fast-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/Portfolio Website-2.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Secound-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/Portfolio Website.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Third-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-02.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Four-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-1.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Five-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-3.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Six-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-5.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Seven-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 portfolio-card">
+              <div class="card mb-5 mb-lg-4">
+                <img src="/portfolio-6.png" alt="portfolio img">
+                <div class="card-body text-center">
+                  <h4>Eight-Portfolio</h4>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- tutorial ends here -->
+
+      <!-- feedback start here -->
+      <section id="feedback">
+        <div class="section-title my-3">
+          <h3 class="text-center text-white">Feedback</h3>
+          <hr class="hr-dotted">
+        </div>
+
+        <div class="row text-white">
+          <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p>Item-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa qui mollitia ad maxime
+                    officiis repellendus cupiditate labore velit quidem.</p>
+                  <img class="item-img mb-3" src="/about-profile.png" alt="delwar img">
+                  <h3 class="mb-3">Delwar Sheikh</h3>
+                </div>
+                <div class="carousel-item">
+                  <p>Item-2: Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa qui mollitia ad maxime
+                    officiis repellendus cupiditate labore velit quidem.</p>
+                  <img class="item-img mb-3" src="/Untitled_design-removebg-preview.png" alt="delwar img">
+                  <h3 class="mb-3">Delwar Sheikh</h3>
+                </div>
+                <div class="carousel-item">
+                  <p>Item-3: Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa qui mollitia ad maxime
+                    officiis repellendus cupiditate labore velit quidem.</p>
+                  <img class="item-img3 mb-3" src="/Delwar.png" alt="delwar img">
+                  <h3 class="mb-3">Delwar Sheikh</h3>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- feedback ends here -->
+
+      <!-- contact start here -->
+      <section id="contact">
+        <div class="section-title my-3">
+          <h3 class="text-center">Contact Me</h3>
+          <hr class="hr-dotted">
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="mailto:sheikhmddelwar@gmail.com" method="post" enctype="text/plain" class="was-validated">
+
+              <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" class="form-control" name="fullname" required>
+                <div class="valid-feedback">valid</div>
+                <div class="invalid-feedback">Enter fullname befor submitting the form</div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea style="resize: none;" name="message" id="message" class="form-control" cols="20"
+                  rows="5"></textarea>
+              </div>
+
+              <div class="form-group text-center">
+                <input type="submit" class="btn btn-primary m-3" value="submit">
+                <input type="reset" class="btn btn-primary" value="reset">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </section>
+      <!-- contact ends here -->
+
+    </main>
+
+    <footer>
+
+      <div class="row">
+        <div class="col-lg-6 text-center m-auto mt-3">
+          <h5>&copy; Copyright Delwar Sheikh</h5>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-evenly">
+          <a href="#"><i class="fa-brands fa-facebook fa-2x p-2"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram fa-2x p-2" style="color: #EA2027;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin fa-2x p-2"></i></a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter fa-2x p-2"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube fa-2x p-2" style="color: #EA2027;"></i></a>
+        </div>
+      </div>
+
+    </footer>
+
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
